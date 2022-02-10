@@ -1,7 +1,7 @@
 
 .container {
   width: 700px;
-  margin-left: auto;
+  margin-left: 20px;
   margin-right: auto;
 }
 
@@ -17,6 +17,8 @@
     font-size: 2vw;
     text-align: left;
     animation-delay: 3s;
+    padding-left: 20px;
+    padding-right: 10vw;
   }
   
 .typing > * {
@@ -39,5 +41,10 @@ body {
 
 .bookmarks li {
   float: left;
+  margin-top: 50vw;
+  margin-left: 5vw;
+
+  /*padding-left: 20px;
+
 }
   
