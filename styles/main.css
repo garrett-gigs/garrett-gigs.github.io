@@ -1,0 +1,43 @@
+
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face {
+    font-family: Thesis; sans-serif;
+    src: url(../fonts/1942.ttf);
+}
+
+.typing {
+    font-family: 'Thesis', "sans-serif";
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    text-align: left;
+    animation-delay: 3s;
+  }
+  
+.typing > * {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnim 2s steps(25);
+    }
+  
+  @keyframes typingAnim {
+    from { width: 0 }
+    to { width: 100% }
+  }
+body {
+  background-image: url(../img/Gif4.gif);  
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  padding: 50px 50px 50x 50px
+     }
+
+.bookmarks li {
+  float: left;
+}
+  
