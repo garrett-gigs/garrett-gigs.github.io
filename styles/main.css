@@ -1,8 +1,41 @@
+.navbar {
+  display: inline-block
+  width: 100vw;
+  padding: 20px;
+  margin; 20px;
 
+}
+
+.bookmarks { 
+  /*font-family: 'Babas+Neue', "sans-serif";*/
+  font-family: 'Bebas Neue', cursive;
+  display: inline-block
+  width: 100vw;
+  display: inline-block
+  width: 100vw;
+  padding: 0px 20px 0px 0px;
+  margin; 0px 20px 0px 0px;
+}
+
+ul a{
+  /*font-family: 'Bebas Neue', cursive;
+  /*font-family: 'Babas+Neue', "sans-serif";*/
+  color:white;
+}
+/*
+  text-decoration:none;  //will remove underline 
+  color: white;    //to give black color to link
+  }*/
+ 
 .container {
-  width: 700px;
+  display: inline-block;
+  width: 100vw; float: left; 
+  padding: 10px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
+  
+  /*width: 700px;
   margin-left: 20px;
-  margin-right: auto;
+  margin-right: auto;*/
 }
 
 @font-face {
@@ -14,11 +47,12 @@
     font-family: 'Thesis', "sans-serif";
     position: absolute;
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: left;
     animation-delay: 3s;
     padding-left: 20px;
     padding-right: 10vw;
+    width: 120vw;
   }
   
 .typing > * {
@@ -40,16 +74,23 @@ body {
      }
 
 .bookmarks li {
-  float: down;
+  float: left;
   margin-top: 50vw;
   margin-left: 5vw;
-  background: url('../img/Button1.jpg') no-repeat left center;
+  /*background: url('../img/Button1.jpg') no-repeat left center;*/ 
   padding: 5px 10px 5px 25px;
   list-style: none;
   margin: 0;
   vertical-align: middle;
+  position: absolute
+  bottom: 0px;
   }
-  /*padding-left: 20px;
 
-}
-  
+  @media only screen and (max-width: 320px) {
+
+    body { 
+       font-size: 2em; 
+    }
+ 
+ }
+ 

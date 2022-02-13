@@ -1,0 +1,15 @@
+
+* {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+img{
+  width:100%;
+  max-width:600px;
+}
